@@ -2,5 +2,6 @@ language: java
 
 jdk:
   - oraclejdk11
+  -openjdk11
 
 install: ant deps

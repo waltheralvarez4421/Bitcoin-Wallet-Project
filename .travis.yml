@@ -10,5 +10,11 @@ before_install:
 
 script: mvn clean test
 
+notifications:
+  email:
+    recipients:
+      - walther.alvarez@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
 
 

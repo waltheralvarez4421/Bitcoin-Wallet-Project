@@ -9,3 +9,4 @@ jdk:
   - oraclejdk11
 script:
 - ant build
+- ant test

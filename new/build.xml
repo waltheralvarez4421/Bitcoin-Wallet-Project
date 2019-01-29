@@ -303,6 +303,8 @@
     <target name="new">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
+          <classpath location="lib/junit-4.11.jar" />
+		      <classpath location="lib/hamcrest-core-1.3.jar" />
             <formatter type="xml"/>
             <test name="bitcoin.BitcoinWalletTester" todir="${junit.output.dir}"/>
             <test name="bitcoin.TestGetCurrentValue" todir="${junit.output.dir}"/>

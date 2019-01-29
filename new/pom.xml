@@ -62,7 +62,7 @@
         </dependency>
         <dependency>
         	<groupId>org.powermock</groupId>
-        	<artifactId>powermock-module-junit4-common</artifactId>
+        	<artifactId>powermock-module-junit4</artifactId>
         	<version>2.0.0</version>
         </dependency>
     <dependency>

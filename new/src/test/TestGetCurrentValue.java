@@ -38,7 +38,7 @@ public class TestGetCurrentValue {
 
 		// Exercise
 		assertEquals(bWallet.getCurrentValueUSD(amountBitcoin, BitcoinInPriceService.getCurrentBitcoinPriceUSD()),
-				50000, 0.00001);
+				60000, 0.00001);
 
 	}
 

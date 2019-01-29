@@ -1,18 +1,8 @@
 
 language: java
 
-before_install:
-- cd new
-- chmod +x gradlew
+script: "mvn cobertura:cobertura"
 
-jdk:
-  - oraclejdk8
-  
-before_script:
- - sudo apt-get install ant-optional
-
-script: 
-- ant build
-- ant init
-- ant new
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 

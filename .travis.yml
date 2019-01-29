@@ -1,0 +1,9 @@
+language: java
+mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+mvn test -B
+gradle assemble
+jdk:
+  - oraclejdk8
+  - oraclejdk11
+  - openjdk10
+  - openjdk11

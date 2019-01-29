@@ -10,8 +10,8 @@ jdk:
   
 before_script:
  - sudo apt-get install ant-optional
-install: true
+
 script: 
-- ./mvnw clean install 
 - ant build
+- ant main
 

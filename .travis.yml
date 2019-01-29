@@ -3,7 +3,7 @@ install: gradle wrapper --gradle-version 4.2
 language: java
 
 jdk:
-  - oraclejdk10
+  - openjdk10
 
 before_install:
 - cd new

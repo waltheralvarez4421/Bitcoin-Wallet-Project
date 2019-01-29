@@ -9,5 +9,5 @@ jdk:
   - oraclejdk8
 script:
 - ant build
-
+- ant BitcoinWalletTester
 

@@ -302,7 +302,7 @@
     </target>
     <target name="new">
         <mkdir dir="${junit.output.dir}"/>
-    	<classpath location="lib/junit-4.11.jar" />
+    	<classpath location="lib/junit-4.12.jar" />
 	<classpath location="lib/hamcrest-core-1.3.jar" />
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>

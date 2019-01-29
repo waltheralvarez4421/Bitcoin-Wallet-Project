@@ -13,5 +13,5 @@ before_script:
 
 script: 
 - ant build
-- ant main
+- ant init
 

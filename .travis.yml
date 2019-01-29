@@ -7,6 +7,10 @@ before_install:
 
 jdk:
   - oraclejdk8
+  
+before_script:
+ - sudo apt-get install ant-optional
+ 
 script:
 - ant build
 - ant BitcoinWalletTester

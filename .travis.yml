@@ -1,5 +1,8 @@
 language: java
+
 jdk:
   - oraclejdk11
+  - openjdk10
 
-install: ant deps
+before_install:
+  - cd java

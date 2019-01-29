@@ -3,6 +3,7 @@ language: java
 
 before_install: 
 - cd new
+- chmod +x gradlew
 
 script: "mvn cobertura:cobertura"
 

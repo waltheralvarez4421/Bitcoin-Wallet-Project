@@ -8,8 +8,7 @@ before_install:
 - cd new
 - chmod +x gradlew
 
-script: "mvn cobertura:cobertura"
+script: mvn clean test
 
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+
 

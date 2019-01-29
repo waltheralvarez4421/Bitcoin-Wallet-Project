@@ -1,6 +1,9 @@
 
 language: java
 
+before_install: 
+- cd new
+
 script: "mvn cobertura:cobertura"
 
 after_success:
